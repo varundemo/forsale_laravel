@@ -1,0 +1,57 @@
+/*=======
+this is modify page
+====*/
+.banner{
+	margin-top: 200px !important;
+}
+#aiccha{
+	margin: auto;
+
+}
+#hurter a{
+	text-align: center !important;
+	font-size: 16px !important;
+}
+select{
+	width: 100% !important;
+	margin-top: 10px !important;
+	height: 38px;
+}
+#seno input{
+	width: 100%;
+	margin-top: 10px;
+	height: 38px;
+}
+/*====
+button
+===*/
+#koron input{
+	width: 100%;
+	display: block;
+}
+/*===
+this is next input type
+===*/
+#siro{
+	width: 100%;
+}
+#lantos{
+	margin: 7px;
+}
+#bethr input{
+	height: 20px;
+	
+}
+#behek{
+	width: 100%;
+}
+@media(max-width: 767.99px){
+	#hurter a{
+		font-size: 15px !important;
+	}
+	#behek{
+	margin-top: 0px;
+    height: 37px;
+		width: 100%;
+	}
+}

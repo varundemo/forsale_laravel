@@ -1,0 +1,49 @@
+/*this is background css*/
+*{
+	font-family: 'Nunito'
+}
+.agent_banner{
+	overflow: hidden;
+	background-color: #222;
+	width: 100%;
+}
+.agent_banner h4{
+	margin-top: 130px;
+	color: #fff;
+}
+
+/*===agent about_banner section*/
+.agent_about{
+	overflow: hidden;
+	
+}
+.carousel-control-prev{
+	background-color: #222;
+}
+.carousel-control-next{
+	background-color: #222;
+}
+
+/*===this is another section===*/
+.stobdho{
+	overflow: hidden
+}
+#seeling{
+	overflow: hidden;
+   background-image: url("https://www.moneycrashers.com/wp-content/uploads/2019/04/tips-sell-house-without-realtor-1068x713.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: auto;
+	background-repeat: repeat;
+}
+#siga{
+	background-color: #222222a1;
+	height: auto;
+}
+/*==responsive===*/
+@media(max-width: 767.99px){
+	#freelancer_mafus{
+		margin-top: 10px !important;
+	}
+}

@@ -1,0 +1,250 @@
+/*sell sectionn*/
+.downer_hope{
+	background-image: url("https://yootheme.com/site/images/blog/2019/theme-tomsen-brody-illustration-09.svg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+padding-bottom: 50px;
+}
+.downer_hope h1{
+	margin-top: 90px;
+	color: #fff;
+}
+
+/*====card for real state===*/
+.card h1,
+.card h2 {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper {
+  height: auto;
+  overflow: hidden;
+}
+
+.card {
+  height: 450px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 0px;
+}
+
+.image {
+  background: url("http://media.cleveland.com/business_impact/photo/associated-estates-san-raphael-apartments-dallas-texasjpg-8959a5dfba0d9575.jpg");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.image-overlay {
+  background: url("http://media.cleveland.com/business_impact/photo/associated-estates-san-raphael-apartments-dallas-texasjpg-8959a5dfba0d9575.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  padding: 8px 50px;
+  background: #ec6366;
+  width: 50%;
+  color: white;
+}
+
+.search {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  width: 170px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+  transition: width 0.4s;
+}
+
+.search-focus {
+  width: 45%;
+}
+
+@media screen and (max-width: 575px) {
+  .search-focus {
+    width: 80%;
+  }
+}
+
+.input-group-text {
+  border-radius: 50px;
+  padding: 15px;
+}
+
+.input-group {
+}
+
+.form-control {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  outline: none;
+  border-color: #ced4da;
+}
+
+.info-mob {
+  background: #ec6366;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+/*====
+this is card section
+====*/
+.carousel-control-next {
+    right: 0;
+    background: #222;
+    height: 50px;
+    margin: auto;
+}
+.carousel-control-prev {  right: 0;
+    background: #222;
+    height: 50px;
+	margin: auto;
+margin-left: 0px;
+}
+	.carousel-indicators{		
+    top:105%;		
+}
+		
+.carousel-indicators li{
+    background-color:red;
+}
+.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+section{
+	padding:100px 0px;
+}
+.card img{
+	height: 300px;
+}
+/*===
+flex design with another like a aboutt section
+======*/
+.jibon{
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+#lalsari p{
+	margin-top: 60px !important;
+	font-family: 'Nunito', sans-serif;
+}
+#serr img{
+	margin-top: 50px !important;
+}
+/*=====
+real estate hover house sample
+====*/
+.state_home{
+	overflow: hidden;
+}
+
+/*product-list-hover-slide-effect*/
+.product-list-left-effect
+{
+	width:100%;
+	height:auto;
+	position:relative;
+	margin-bottom:20px;	
+	overflow:hidden;
+}
+
+.product-list-left-effect img
+{
+	transition-duration:0.4s;
+}
+
+.product-list-left-effect .product-overlay
+{
+	width:90%;
+	height:90%;
+	position:absolute;
+	padding:20px;
+	background:rgba(0, 0, 0, 0.7);
+	color:#fff;
+	top:5%;
+	left:-100%;
+	
+	transition-duration:0.4s;
+	-webkit-transition: left 0.5s ease-in-out;
+}
+
+.product-list-left-effect .product-overlay h3
+{
+	margin:0 0 12px 0;
+}
+
+.product-list-left-effect:hover .product-overlay
+{
+	/*opacity:1;*/
+	-webkit-transition: left 0.5s ease-in-out;
+	left:5%;
+}
+
+.product-list-left-effect:hover img
+{
+	 transform: scale(1.1);
+}
+/*product-list-hover-slide-effect*/
+
+
+/*theme-heading*/
+.theme-heading
+{
+	text-align:center;
+	margin-bottom:2rem;
+	font-weight:300;
+}
+
+
+/*===responsive==*/
+@media(max-width : 768px){
+	.product_img img{
+	width: 100%;
+}
+	.card h1, .card h2{
+		font-size: 20px;
+	}
+}
+@media(max-width : 768px){
+	.product_img img{
+	width: 100%;
+}
+	.card h1, .card h2{
+		font-size: 30px;
+	}
+}

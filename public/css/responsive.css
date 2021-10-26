@@ -1,0 +1,81 @@
+/*=====responsive css======*/
+
+@media (max-width: 575.98px) { ... }
+@media(max-width: 410px){
+	
+}
+@media (min-width: 768px) {
+	.container .contact-form input, .container .contact-form textarea{
+		margin-left: -5px !important;
+	}
+	.container .contact-form .btn-send{
+		margin-left: 0px!important;
+	}
+	}
+@media (max-width: 768px) {
+	.nav-link{
+		font-size: 9px !important;
+	}
+	#larver{
+		width: 100px !important;
+	}
+	#collapsibleNavbar{
+		margin-right: 27px;
+	}
+}
+@media (max-width: 767.98px) { 
+	#larver{
+		width: 193px !important;
+	}
+#collapsibleNavbar{
+		margin-right: 0px;
+	}
+	.virtual h2{
+		font-size: 35px;
+	}
+	.nav-link{
+		font-size: 14px !important;
+	}
+	#freelancer_mamun{
+		margin-top: 5px;
+	}
+		#freelancer_mamunn{
+		margin-top: 5px;
+	}
+	#nontho{
+		margin-top: 10px;
+	}
+	#settel{
+		margin-top: 0px !important;
+	}
+}
+@media (max-width: 608px) { 
+	#hel{
+		width: 85%;
+	}
+	
+}
+@media (max-width: 514px) { 
+	#freelancer_mafus{
+		font-size: 46px;
+	}
+
+}
+
+
+@media (max-width: 321px) { 
+	#freelancer_mafus{
+		font-size: 40px;
+	}
+	#larver{
+		width: 170px !important;
+	}
+
+}
+
+@media (max-width: 500px) { 
+	#larver{
+		width: 300px;
+	}
+
+}

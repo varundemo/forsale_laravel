@@ -1,0 +1,71 @@
+/*===this is search ressult page==*/
+
+.banner_result{
+	overflow: hidden;
+}
+.mapers{
+	width: 100%;
+	margin-top: 00px;
+}
+.pera_t{
+	margin-top: 180px !important;
+}
+.pera_t a{
+	background-color: #fff;
+	padding: 10px 15px;
+	margin: auto;
+	color: #222;
+	border: 1px solid #222;
+}
+.pera_t a:hover{
+	background-color: #222;
+	padding: 10px 15px;
+	margin: auto;
+	color: #fff;
+	border: 1px solid #222;
+}
+#rated a{
+	
+}
+#harim a{
+	background-color: #222;
+	padding: 10px 15px;
+	color: #ffff;
+	display: block;
+	margin: auto;
+}
+
+
+#samne_tmi p{
+	font-weight: bold !important;
+}
+.samne_tmi p{
+	font-weight: bold !important;
+}
+
+/*======
+responsive website
+====*/
+@media(max-width: 767.99px){
+	.pera_t a{
+		display: block;
+width: 100%;
+text-align: center;
+	}
+	
+	.pera_t{
+	margin-top: 100px !important;
+}
+	#harim a{
+		width: 100%;
+    text-align: center;
+    margin: 1px;
+	}
+}
+
+
+@media(max-width: 1100px){
+	#harim a{
+		margin: 2px !important;
+	}
+}
